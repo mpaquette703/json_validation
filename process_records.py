@@ -42,7 +42,7 @@ class Record(BaseModel):
         return self
     
 # Read JSON file
-with open('mike_interview_example_dataset.json') as file:
+with open('mike_example_dataset.json') as file:
     data = json.load(file)
 
 #Validate data
